@@ -7,7 +7,7 @@ import threading
 from PIL import Image, ImageDraw, ImageFont
 
 def main():
-    video = cv.VideoCapture("./videos/portao_bike-ezgif.com-resize-video.mp4")
+    video = cv.VideoCapture("./videos/bikecerto.mp4")
 
     if not video.isOpened():
         print("Error opening video file")
@@ -108,7 +108,7 @@ def main():
 
         return frame_count, gate_state, qtd_frames_em_movimento
     
-    def worker_analizar(roi, tipo="gemini"):
+    def worker_analizar(roi, tipo="ollama"):
         global gemini_msg
         if tipo == "ollama":
             response = analisar_imagem_ollama(roi)
@@ -118,6 +118,7 @@ def main():
             response = analisar_imagem_gemini(roi)
             print(f"[Gemini] {response}")
             gemini_msg = response
+        return
 
     FONT_PATH = "DejaVuSans.ttf" 
 
