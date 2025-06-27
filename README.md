@@ -9,12 +9,6 @@ Sandy Hoffmann - sandy.hoffmann@posgrad.ufsc.br
 Vinícius Wolosky Muchulski - vinicius.muchulski@grad.ufsc.br
 
 
-CENTRO TECNOLÓGICO - CTC
-
-DEPARTAMENTO DE INFORMÁTICA E ESTATÍSTICA - INE
-
-DISCIPLINA DE VISÃO COMPUTACIONAL
-
 ## Visão Geral
 
 O **Smart-Building-AI** explora como técnicas de IA e análise de dados podem ser utilizadas para otimizar e automatizar aspectos de segurança e operação de edifícios inteligentes. Os notebooks e scripts incluem exemplos de:
