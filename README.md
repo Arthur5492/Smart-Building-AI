@@ -3,11 +3,16 @@
 Repositório de notebooks Jupyter e scripts Python para aplicação de Inteligência Artificial em cenários de edifícios inteligentes.
 
 Arthur Rodrigues Fernandes - arthur.r.f@grad.ufsc.br
+
 Sandy Hoffmann - sandy.hoffmann@posgrad.ufsc.br
+
 Vinícius Wolosky Muchulski - vinicius.muchulski@grad.ufsc.br
 
+
 CENTRO TECNOLÓGICO - CTC
+
 DEPARTAMENTO DE INFORMÁTICA E ESTATÍSTICA - INE
+
 DISCIPLINA DE VISÃO COMPUTACIONAL
 
 ## Visão Geral
