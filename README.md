@@ -27,8 +27,6 @@ pip install opencv-python numpy ultralytics python-dotenv google-generativeai pi
 ```
 
 > **Observações:**
-> - Os módulos `threading`, `os`, `tempfile` e `time` já fazem parte da biblioteca padrão do Python.
-> - Baixe o arquivo de fonte `"DejaVuSans.ttf"` e coloque no mesmo diretório dos scripts que o utilizam.
 > - Os modelos YOLO utilizados (ex: `yolo11n.pt`, `yolo11s.pt`) devem estar presentes no diretório ou serem baixados conforme documentação do YOLO/Ultralytics.
 > - Para uso das APIs do Gemini, crie um arquivo `.env` com sua chave de API:  
 >   ```
@@ -58,14 +56,3 @@ pip install opencv-python numpy ultralytics python-dotenv google-generativeai pi
    ```
    Ou rode scripts Python diretamente.
 
-## Contribuição
-
-Contribuições são bem-vindas! Abra issues ou pull requests para novas funcionalidades, correções ou melhorias.
-
-## Licença
-
-Este projeto ainda não possui uma licença definida. Para uso ou contribuições, entre em contato com o proprietário do repositório.
-
----
-
-> **Dica:** Navegue pelos notebooks Jupyter e scripts para ver exemplos de uso e funcionalidades implementadas.
